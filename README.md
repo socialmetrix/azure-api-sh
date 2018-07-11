@@ -45,15 +45,18 @@ For retrieving again the info from created Service Principal:
 > az ad sp delete --id <app_id>
 
 * #### Subscription Id:
-az account list | jq -r '.[].id'
+
+> az account list | jq -r '.[].id'
 
 * #### azure_login.cfg format:
 
-> app_id="<your registered app id>"
-> client_secret="modifythispass"
-> subscription_id="<your subscription id>"
-> tenant_id="<your tenant id>"
-
+```
+app_id="<your registered app id>"
+client_secret="modifythispass"
+subscription_id="<your subscription id>"
+tenant_id="<your tenant id>"
+```
+ 
 References: https://medium.com/@mauridb/calling-azure-rest-api-via-curl-eb10a06127
 
 ----
@@ -64,3 +67,4 @@ References: https://medium.com/@mauridb/calling-azure-rest-api-via-curl-eb10a061
 * azure_ratecard.sh
 * azure_resource_usage.sh
 * create_app_login.sh
+---
