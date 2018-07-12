@@ -63,8 +63,8 @@ References: https://medium.com/@mauridb/calling-azure-rest-api-via-curl-eb10a061
 
 ### Available scripts:
 
-* [azure_list_all_resources.sh](../../blob/master/azure_list_all_resources.sh)
-* [azure_ratecard.sh](../../blob/master/azure_ratecard.sh)
-* [azure_resource_usage.sh](../../blob/master/azure_resource_usage.sh)
-* [create_app_login.sh](../../blob/master/create_app_login.sh)
+* [azure_list_all_resources.sh](../../blob/master/azure_list_resources.sh "List Microsoft's Azure current resources")
+* [azure_ratecard.sh](../../blob/master/azure_ratecard.sh "Get pricelist for regions")
+* [azure_resource_usage.sh](../../blob/master/azure_resource_usage.sh "Get current resource consumption")
+* [create_app_login.sh](../../blob/master/create_app_login.sh "Create app login for talk with Microsoft's Azure API)
 ---
